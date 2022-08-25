@@ -14,6 +14,7 @@
 		DA8CDD4728B74DEE008334FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8CDD4628B74DEE008334FC /* Assets.xcassets */; };
 		DA8CDD4A28B74DEE008334FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8CDD4828B74DEE008334FC /* LaunchScreen.storyboard */; };
 		DA8CDD5328B75842008334FC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD5228B75842008334FC /* Model.swift */; };
+		DA8CDD5528B759CD008334FC /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD5428B759CD008334FC /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DA8CDD4928B74DEE008334FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA8CDD4B28B74DEE008334FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA8CDD5228B75842008334FC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DA8CDD5428B759CD008334FC /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				DA8CDD4828B74DEE008334FC /* LaunchScreen.storyboard */,
 				DA8CDD4B28B74DEE008334FC /* Info.plist */,
 				DA8CDD4328B74DEB008334FC /* PoMemo.xcdatamodeld */,
+				DA8CDD5428B759CD008334FC /* MemoListTableViewController.swift */,
 			);
 			path = PoMemo;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				DA8CDD4528B74DEB008334FC /* PoMemo.xcdatamodeld in Sources */,
 				DA8CDD3B28B74DEB008334FC /* AppDelegate.swift in Sources */,
+				DA8CDD5528B759CD008334FC /* MemoListTableViewController.swift in Sources */,
 				DA8CDD3D28B74DEB008334FC /* SceneDelegate.swift in Sources */,
 				DA8CDD5328B75842008334FC /* Model.swift in Sources */,
 			);
