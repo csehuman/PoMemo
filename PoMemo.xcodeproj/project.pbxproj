@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DA8CDD3B28B74DEB008334FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD3A28B74DEB008334FC /* AppDelegate.swift */; };
 		DA8CDD3D28B74DEB008334FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD3C28B74DEB008334FC /* SceneDelegate.swift */; };
-		DA8CDD3F28B74DEB008334FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD3E28B74DEB008334FC /* ViewController.swift */; };
 		DA8CDD4228B74DEB008334FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8CDD4028B74DEB008334FC /* Main.storyboard */; };
 		DA8CDD4528B74DEB008334FC /* PoMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD4328B74DEB008334FC /* PoMemo.xcdatamodeld */; };
 		DA8CDD4728B74DEE008334FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8CDD4628B74DEE008334FC /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		DA8CDD3728B74DEB008334FC /* PoMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8CDD3A28B74DEB008334FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8CDD3C28B74DEB008334FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA8CDD3E28B74DEB008334FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA8CDD4128B74DEB008334FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA8CDD4428B74DEB008334FC /* PoMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PoMemo.xcdatamodel; sourceTree = "<group>"; };
 		DA8CDD4628B74DEE008334FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				DA8CDD3A28B74DEB008334FC /* AppDelegate.swift */,
 				DA8CDD3C28B74DEB008334FC /* SceneDelegate.swift */,
-				DA8CDD3E28B74DEB008334FC /* ViewController.swift */,
 				DA8CDD4028B74DEB008334FC /* Main.storyboard */,
 				DA8CDD4628B74DEE008334FC /* Assets.xcassets */,
 				DA8CDD4828B74DEE008334FC /* LaunchScreen.storyboard */,
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8CDD4528B74DEB008334FC /* PoMemo.xcdatamodeld in Sources */,
-				DA8CDD3F28B74DEB008334FC /* ViewController.swift in Sources */,
 				DA8CDD3B28B74DEB008334FC /* AppDelegate.swift in Sources */,
 				DA8CDD3D28B74DEB008334FC /* SceneDelegate.swift in Sources */,
 			);
