@@ -34,6 +34,16 @@ class DataManager {
         }
     }
 
+    func addNewMemo(_ memo: String) {
+        let newMemo = Memo(context: mainContext)
+        newMemo.content = memo
+        newMemo.insertDate = Date()
+        
+        memoList.insert(newMemo, at: 0)
+        
+        saveContext()
+    }
+    
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "PoMemo")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
