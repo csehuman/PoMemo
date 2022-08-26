@@ -18,6 +18,7 @@
 		DA8CDD5728B76075008334FC /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD5628B76075008334FC /* ComposeViewController.swift */; };
 		DA8CDD5928B86EA3008334FC /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD5828B86EA3008334FC /* UIViewController+Alert.swift */; };
 		DA8CDD5B28B873B3008334FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD5A28B873B3008334FC /* DetailViewController.swift */; };
+		DA8CDD5E28B88034008334FC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CDD5D28B88034008334FC /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DA8CDD5628B76075008334FC /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		DA8CDD5828B86EA3008334FC /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		DA8CDD5A28B873B3008334FC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DA8CDD5D28B88034008334FC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		DA8CDD3928B74DEB008334FC /* PoMemo */ = {
 			isa = PBXGroup;
 			children = (
+				DA8CDD5C28B88028008334FC /* Data */,
 				DA8CDD5128B75823008334FC /* Model */,
 				DA8CDD3A28B74DEB008334FC /* AppDelegate.swift */,
 				DA8CDD3C28B74DEB008334FC /* SceneDelegate.swift */,
@@ -88,6 +91,14 @@
 				DA8CDD5228B75842008334FC /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DA8CDD5C28B88028008334FC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DA8CDD5D28B88034008334FC /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				DA8CDD3D28B74DEB008334FC /* SceneDelegate.swift in Sources */,
 				DA8CDD5328B75842008334FC /* Model.swift in Sources */,
 				DA8CDD5928B86EA3008334FC /* UIViewController+Alert.swift in Sources */,
+				DA8CDD5E28B88034008334FC /* DataManager.swift in Sources */,
 				DA8CDD5B28B873B3008334FC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
