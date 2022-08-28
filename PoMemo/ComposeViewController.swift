@@ -61,6 +61,7 @@ class ComposeViewController: UIViewController {
         } else {
             navigationItem.title = "새 메모"
             memoTextView.text = ""
+            originalMemoContent = ""
         }
 
         memoTextView.delegate = self
@@ -75,7 +76,7 @@ class ComposeViewController: UIViewController {
                 inset.bottom = height
                 strongSelf.memoTextView.contentInset = inset
                 
-                inset = strongSelf.memoTextView.scrollIndicatorInsets
+                inset = strongSelf.memoTextView.verticalScrollIndicatorInsets
                 inset.bottom = height
                 strongSelf.memoTextView.scrollIndicatorInsets = inset
             }
@@ -88,7 +89,7 @@ class ComposeViewController: UIViewController {
             inset.bottom = 0
             strongSelf.memoTextView.contentInset = inset
             
-            inset = strongSelf.memoTextView.scrollIndicatorInsets
+            inset = strongSelf.memoTextView.verticalScrollIndicatorInsets
             inset.bottom = 0
             strongSelf.memoTextView.scrollIndicatorInsets = inset
         })
